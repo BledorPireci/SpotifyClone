@@ -1,8 +1,8 @@
 import React from "react";
-import './Style/Download.css';
-import NavigationBar from "./NavigationBar";
-import Footer from "./footer";
-import {AllDevices, DownloadAppStore, DownloadPlayStore, LaptopIcon} from "../assets/Icons";
+import '../Style/Download.css';
+import NavigationBar from "../ReusableComponents/NavigationBar";
+import Footer from "../ReusableComponents/footer";
+import {AllDevices, DownloadAppStore, DownloadPlayStore, LaptopIcon} from "../../assets/Icons";
 
 export default function Download(){
     return(

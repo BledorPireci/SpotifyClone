@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import './Style/Register.css'
-import {UserIconBlack} from "../assets/Icons";
+import '../Style/Register.css'
+import {UserIconBlack} from "../../assets/Icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle,} from '@fortawesome/free-brands-svg-icons'
 

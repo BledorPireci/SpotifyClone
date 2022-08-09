@@ -1,11 +1,11 @@
 import React from "react";
-import './Style/Support.css'
-import NavigationBar from "./NavigationBar";
+import '../Style/Support.css'
+import NavigationBar from "../ReusableComponents/NavigationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import Footer from "./footer";
+import Footer from "../ReusableComponents/footer";
 import {faAngleRight} from "@fortawesome/free-solid-svg-icons/faAngleRight";
-import {AccountHelp, AppHelp, DeviceHelp, PaymentHelp, PlanHelp, SafetyPrivacy} from "../assets/Icons";
+import {AccountHelp, AppHelp, DeviceHelp, PaymentHelp, PlanHelp, SafetyPrivacy} from "../../assets/Icons";
 
 
 export default function SupportPage(){

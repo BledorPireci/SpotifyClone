@@ -1,8 +1,8 @@
 import React from "react";
-import './Style/PremiumPage.css'
-import Footer from "./footer";
-import NavigationBar from "./NavigationBar";
-import {DownloadIcon, NoAdsIcon, PlayMusic, UnLimitedIcon} from "../assets/Icons";
+import '../Style/PremiumPage.css'
+import Footer from "../ReusableComponents/footer";
+import NavigationBar from "../ReusableComponents/NavigationBar";
+import {DownloadIcon, NoAdsIcon, PlayMusic, UnLimitedIcon} from "../../assets/Icons";
 
 
 export default function PremiumPage(){

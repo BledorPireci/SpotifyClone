@@ -1,6 +1,6 @@
 import React from "react";
-import './Style/NavigationDrawer.css'
-import {UserIcon} from "../assets/Icons";
+import './ReusableComponentsStyle/NavigationDrawer.css'
+import {UserIcon} from "../../assets/Icons";
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCircleXmark} from '@fortawesome/free-solid-svg-icons'
 export default function NavigationDrawer(){

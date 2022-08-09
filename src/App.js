@@ -1,15 +1,17 @@
 import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import OpeninWeb from "./components/OpenInWeb"
-import PremiumPage from "./components/PremiumPage";
-import Footer from "./components/footer";
-import NavigationBar from "./components/NavigationBar";
+import OpeninWeb from "./components/Pages/OpenInWeb"
+import PremiumPage from "./components/Pages/PremiumPage";
+import Footer from "./components/ReusableComponents/footer";
+import NavigationBar from "./components/ReusableComponents/NavigationBar";
 import "./index.css";
-import DownloadPage from "./components/Download";
-import SupportPage from "./components/Support";
-import RegisterPage from "./components/Register"
-import LoginPage from "./components/Login"
-import NavigationDrawer from "./components/NavigationDrawer"
+import DownloadPage from "./components/Pages/Download";
+import SupportPage from "./components/Pages/Support";
+import RegisterPage from "./components/Pages/Register"
+import LoginPage from "./components/Pages/Login"
+import NavigationDrawer from "./components/ReusableComponents/NavigationDrawer"
+import MainSideBar from './components/ReusableComponents/MainSideBar'
+
 function App() {
     return (
         <BrowserRouter>
@@ -24,6 +26,7 @@ function App() {
                     <Route path="/registerPage" element={<RegisterPage/>}/>
                     <Route path="/loginPage" element={<LoginPage/>}/>
                     <Route path="/navigationDrawer" element={<NavigationDrawer/>}/>
+                    <Route path="/mainSideBar" element={<MainSideBar/>}/>
                 </Routes>
             </div>
         </BrowserRouter>

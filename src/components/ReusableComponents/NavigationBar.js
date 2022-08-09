@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import {UserIcon} from "../assets/Icons";
-import './Style/nav-bar.css';
+import {UserIcon} from "../../assets/Icons";
+import './ReusableComponentsStyle/nav-bar.css';
 import NavigationDrawer from "./NavigationDrawer";
 
 

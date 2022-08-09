@@ -1,6 +1,6 @@
 import React from "react";
-import './Style/footer.css';
-import {FacebookIcon, InstagramIcon, TwitterIcon, UserIcon} from "../assets/Icons";
+import './ReusableComponentsStyle/footer.css';
+import {FacebookIcon, InstagramIcon, TwitterIcon, UserIcon} from "../../assets/Icons";
 
 
 export default function Footer() {
