@@ -1,0 +1,48 @@
+
+
+@media only screen and (max-width: 992px){
+    .NavDrawer{
+        box-sizing: border-box;
+        float: right;
+        margin: auto;
+    }
+    .navDrawList{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 450px;
+        height: 1000px;
+        align-items: center;
+    }
+    .navDrawList ul{
+        list-style: none;
+        color: white;
+        padding-top: 20px;
+        padding-left: 0;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .navDrawList a:hover{
+        color: #14ab52;
+    }
+    .navDrawList li{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .logoClass{
+        display: flex;
+    }
+    .logoClass .logo{
+        height: 40px;
+        margin: 40px;
+    }
+   .closeIcon{
+       position: absolute;
+       top: 0;
+       right: 0;
+       font-size: 30px;
+       color: white;
+        margin: 15px;
+   }
+}

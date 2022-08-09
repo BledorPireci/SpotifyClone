@@ -1,0 +1,276 @@
+.main{
+    background-color: white;
+}
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+
+.topside{
+    background-color: #1d75de;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+}
+.topContainer{
+    padding-left: 18%;
+}
+.topH1{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Poppins;
+    letter-spacing: -0.2px;
+    margin-top: 0;
+
+}
+.topH2{
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: normal;
+}
+.black-button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 20px 48px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border: none;
+
+}
+.black-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.blue-button{
+    background-color: #1d75de ;
+    color: white;
+    border-radius: 50px;
+    padding: 20px 48px;
+    display: inline-block;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border: 3px solid white;
+}
+.blue-button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.topA{
+    color: white;
+    letter-spacing: 1px;
+}
+.topsmall{
+    color: white;
+    font-size: 15px;
+}
+.botside{
+    padding-bottom: 20px;
+}
+.botH1{
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.cards .card{
+    flex: 1 1 25%;
+    max-width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card img {
+    width: 200px;
+}
+
+.card h3{
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: Poppins;
+    margin-bottom: 10px;
+}
+.card p{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px){
+    .topH1{
+        font-size: 25px;
+    }
+
+
+}
+
+@media only screen and (max-width: 460px){
+
+
+        .black-button{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0 0 10px;
+
+        }
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .blue-button{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0;
+        }
+        .topA{
+            font-size: 10px;
+        }
+}
+@media only screen and (max-width: 360px){
+    .black-button{
+        width: 100%;
+    }
+    .blue-button{
+        width: 100%;
+    }
+    .topsmall{
+        font-size: 5px;
+    }
+    .topA{
+        font-size: 12px;
+    }
+    .topContainer small{
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .cards {
+        gap: 2em;
+    }
+    .cards .card {
+        flex-direction: row;
+        max-width: calc(50% - 2em);
+        flex-basis: calc(50% - 2em);
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .cards .card img {
+        width: 100px;
+        margin-right: 20px;
+    }
+    .cards .card h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .cards .card p {
+        margin-top: 6px;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    .topContainer{
+        padding-left: 10%;
+
+    }
+    .topside{
+        margin: 0;
+        padding: 5%;
+    }
+    .topH1{
+        font-size: 35px;
+    }
+    .topH2{
+        font-size: 22px;
+    }
+    .topsmall{
+        font-size: 18px;
+    }
+    .logo{
+
+    }
+}
+@media only screen and (max-width: 768px) {
+    .topH1{
+        font-size:30px ;
+        font-weight: 550;
+    }
+    .topContainer{
+        text-align: left;
+    }
+
+    .botH1 {
+        font-size: 30px;
+        margin: 0 0 20px;
+        padding: 20px 0 0;
+    }
+
+    .cards .card {
+        max-width: calc(100% - 2em);
+        flex-basis: calc(100% - 2em);
+    }
+    .black-button{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 0 10px;
+
+    }
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blue-button{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .cards .card{
+        flex-direction: column;
+        text-align: center;
+    }
+    .cards .card img {
+        margin-right: 0;
+        width: 80%;
+    }
+
+}

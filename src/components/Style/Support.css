@@ -1,0 +1,395 @@
+.container-support{
+    margin: auto;
+    background-color: black;
+
+}
+.support-nav nav{
+    background: linear-gradient(356deg, rgba(0,0,0,1) 47%, rgb(11, 171, 91) 100%);
+
+}
+.firstsection{
+    text-align: center;
+
+
+}
+.innerContainer{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.firstsection h2{
+    color: lightgray;
+    font-family: Poppins;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 73%;
+    margin: 0;
+}
+.firstsection h1{
+    margin-top: -20px;
+    font-size: 80px;
+    font-family: Poppins;
+    letter-spacing: -2px;
+    padding-right: 13px;
+    color: white;
+    text-align: left;
+    line-height: 80px;
+    padding-top: 30px;
+
+}
+.firstsection p{
+    font-size: 30px;
+    font-family: Poppins;
+    margin-right: 55%;
+    color: lightgray;
+}
+.firstsection a{
+    color: white;
+}
+.firstsection input[type=text]{
+    width: 300px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 60px;
+    transition: width 0.4s ease-in-out;
+
+}
+.input-wrapper{
+    position: relative;
+    display: inline-block;
+}
+input[type=text]:focus {
+    width: 700px;
+    border: none;
+}
+.searchIcon{
+    color: black;
+    position: absolute;
+    left: 20px;
+    top:13px;
+
+}
+.quickHelp {
+   text-align: center;
+    background-color: #282828;
+
+}
+.quickHelp h1{
+    padding-top: 20px;
+    color: white;
+    font-family: Poppins;
+    font-size: 25px;
+}
+.quickHelp ul{
+    list-style: none;
+    padding: 10px;
+}
+.quickHelp li{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.quickHelp{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-help{
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+}
+.rightAngle{
+    color: white;
+    height: 30px;
+
+}
+li p{
+
+}
+.lastsection{
+    text-align: center;
+    background-color: #100f0f;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.lastsection h1{
+    color: white;
+    font-family: Poppins;
+    font-size: 55px;
+    padding-top: 30px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.lastsection p{
+    margin-top: -10px;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.lastsection ul:hover{
+    color: white;
+    text-decoration: underline;
+}
+.visit-button{
+    background-color: #1fdf64 ;
+    border-radius: 50px;
+    padding: 20px 38px;
+    display: inline-block;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+
+
+}
+.visit-button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.support-cards{
+
+    max-width: 700px;
+    margin: 15px auto;
+}
+.grid-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 13px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.pink-card{
+    background-color: #af2896;
+    border-radius: 5px;
+}
+.pink-card h3{
+    color: white;
+    font-family: Poppins;
+}
+.red-card{
+    background-color: #8c1932;
+    border-radius: 5px;
+}
+.red-card h3{
+    color: white;
+    font-family: Poppins;
+}
+.orange-card{
+    background-color: #b06239;
+    border-radius: 5px;
+}
+.orange-card h3{
+    color: white;
+    font-family: Poppins;
+}
+.green-card{
+    background-color: #006450;
+    border-radius: 5px;
+}
+.green-card h3{
+    color: white;
+    font-family: Poppins;
+}
+.gray-card{
+    background-color: #757575;
+    border-radius: 5px;
+}
+.gray-card h3{
+    color: white;
+    font-family: Poppins;
+}
+.blue-card{
+    background-color: #537aa1;
+    border-radius: 5px;
+}
+.blue-card h3{
+    color: white;
+    font-family: Poppins;
+}
+.paymentHelp{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.planHelp{
+    display: block;
+    float: right;
+}
+.appHelp{
+    display: block;
+    float: right;
+}
+.deviceHelp{
+    display: block;
+    float: right;
+}
+.safetyPrivacy{
+    display: block;
+    float: right;
+}
+.accountHelp{
+    display: block;
+    float: right;
+}
+.grid-cards > div{
+    position: relative;
+    min-height: 130px;
+    padding: 15px;
+    overflow: hidden;
+
+}
+.grid-cards img{
+    position: absolute;
+    bottom: 10px;
+    right: -15px;
+    transform: rotate(30deg);
+    box-shadow: 0 0 5px rgba(0, 0,0,0.4);
+}
+.grid-cards h3 {
+    margin:0;
+}
+@media only screen and (max-width: 800px){
+    .innerContainer{
+        padding: 10px;
+    }
+    .firstsection h2{
+        white-space: nowrap;
+    }
+    .firstsection h1{
+        font-size: 60px;
+
+    }
+    .firstsection p{
+        margin: 0 0 15px;
+        text-align: left;
+    }
+    .grid-cards{
+        padding: 10px;
+    }
+    .quickHelp{
+        padding: 10px;
+    }
+    .lastsection h1{
+        font-size: 30px;
+    }
+
+    .lastsection p{
+        font-size: 15px;
+        margin: 0;
+    }
+    input[type=text]:focus {
+        width: 600px;
+        border: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    .firstsection h2{
+        text-align: left;
+        padding: 0;
+    }
+    .firstsection h1{
+        font-size: 50px;
+
+    }
+    .firstsection p{
+        text-align: left;
+
+        font-size: 20px;
+    }
+    .logo{
+        padding-left: 0px;
+    }
+    .grid-cards{
+        grid-template-columns: repeat(2, minmax(0px, 1fr));
+        padding: 20px;
+    }
+    input[type=text]:focus {
+        width: 550px;
+        border: none;
+    }
+    .innerContainer{
+        padding: 15px;
+    }
+    .quickHelp{
+        padding: 10px;
+    }
+    .quickHelp h1{
+        margin: 0;
+        padding-left: 5px;
+    }
+    .container-help li{
+        font-size: 17px;
+    }
+    .rightAngle{
+        height: 25px;
+
+    }
+    .lastsection h1{
+        font-size: 30px;
+    }
+    .lastsection p{
+        font-size: 15px;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 460px){
+    .innerContainer{
+        padding: 20px;
+    }
+    .firstsection h2{
+        padding: 0;
+        text-align: left;
+        font-size: 17px;
+    }
+    .firstsection h1{
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        line-height:40px;
+    }
+    .firstsection p{
+        margin: 0;
+        margin-bottom: 55px;
+        font-size: 22px;
+        text-align: left;
+        margin-top: 55px;
+    }
+    .firstsection input[type=text]{
+        transition: width 0.2s ease-in-out;
+    }
+    input[type=text]:focus {
+        width: 400px;
+        border: none;
+    }
+    .container-help li{
+        font-size: 15px;
+    }
+    .quickHelp h1{
+        margin: 0;
+        margin-left: 10px;
+    }
+    .rightAngle{
+        height: 25px;
+
+    }
+    .grid-cards{
+        grid-template-columns: repeat(2, minmax(0px, 1fr));
+        padding: 20px;
+    }
+    .lastsection h1{
+        font-size: 30px;
+    }
+    .lastsection p{
+        font-size: 15px;
+        margin: 0;
+    }
+}

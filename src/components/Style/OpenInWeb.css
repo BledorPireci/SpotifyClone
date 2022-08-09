@@ -1,0 +1,68 @@
+.openMain{
+    background-color: #2941AB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+}
+.openH1 {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: Circular Std Black Regular;
+    letter-spacing: -3.84px;
+    color: rgb(30, 215, 96);
+    margin: 0 0 35px;
+}
+.openSpan {
+    color: rgb(30, 215, 96);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+
+}
+.openA {
+    background-color: rgb(30, 215, 96);
+    padding: 14px 32px;
+    border-radius: 500px;
+    color: #2941AB;
+
+}
+
+@media only screen and (max-width: 360px) {
+    .openH1{
+        font-size: 50px;
+    }
+    .openSpan{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .openA{
+        margin-bottom: -20px;
+        padding: 14px 32px;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .openH1{
+        font-size: 60px;
+    }
+    .openSpan{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 560px){
+    .openH1{
+        font-size: 70px;
+    }
+
+}
+@media only screen and (max-width: 760px){
+    .openH1{
+        font-size: 80px;
+    }
+}

@@ -1,0 +1,249 @@
+.registerMain{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.registerContainer{
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoRegister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.registerTopside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.registerWithButtons h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+#registerSignWithFacebook{
+    width: 100%;
+    color: white;
+    background-color: #3b5998;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+#registerSignWithFacebook:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.facebook-icon-register{
+    padding-right: 20px;
+}
+#registerSignWithGoogle{
+    width: 100%;
+    color: gray;
+    background-color: white;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+#registerSignWithGoogle:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.google-icon-register{
+    padding-right: 20px;
+}
+.hrRegister{
+    display: flex;
+    flex-direction: row;
+}
+.hrRegister span{
+    flex: 0.3 1 0%;
+    align-self: center;
+    text-align: center;
+    line-height: 1px;
+    font-weight: 700;
+    font-size: 15px;
+    color: gray;
+}
+.hrRegister hr{
+    flex: 1 1 0%;
+    margin: 12px 0px 20px;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+.registerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: calc(100% - 30px);
+}
+.inputForm-Register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.inputForm-Register div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.inputForm-Register input{
+    width: 100%;
+}
+.inputForm-Register label{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.inputForm-Register p{
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.inputs-register{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.register-checks input{
+    width: 100%;
+}
+.register-checks h3{
+    font-size: 15px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+.register-checks{
+    max-width: 500px;
+    width: 100%;
+}
+.date{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#selectDay{
+    padding: 15px;
+}
+#months{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid gray;
+}
+#year{
+    padding: 15px;
+}
+.date div {
+    width: 100%;
+    margin-right: 15px;
+}
+.date input,select {
+    width: 100%;
+}
+.registerLastSection{
+    max-width: 500px;
+    width: 100%;
+    padding-top: 15px;
+
+}
+.checkThem{
+    display: flex;
+    flex-direction: row;
+}
+.checkThem div{
+    padding-right: 15px;
+}
+.genders{
+    margin-right: 10px;
+    accent-color: #30bf62;
+}
+.permisions{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.checkPermissions{
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.termsAndConditions{
+    font-size: 12px;
+    text-align: center;
+}
+.termsAndConditions a{
+    color: #30bf62;
+    text-decoration: underline;
+}
+.termsAndConditions a:hover{
+    color: #6bde98;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#signUpButton{
+    background-color: #1ed760;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#signUpButton:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    background-color: #23f370;
+}
+.signup p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.signup a{
+    color: #1fb955;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.signup a:hover{
+    color: #26ec70;
+}
+@media only screen and (max-width: 600px){
+    .registerTopside{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .registerWithButtons h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .registerLastSection{
+
+    }
+}

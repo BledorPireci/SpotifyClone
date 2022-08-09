@@ -1,0 +1,248 @@
+.loginMain{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.loginContainer{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.loginUpper{
+    display: flex;
+    border-bottom: 0.3px solid darkgray;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+ .logo5{
+    height: 50px;
+}
+ .loginMiddle{
+     width: 460px;
+     text-align: center;
+     padding-bottom: 0;
+     margin-bottom: 0;
+ }
+ .loginMiddle h4{
+     font-size: 15px;
+     font-weight: 550;
+ }
+ .loginButtons{
+     display: flex;
+     flex-direction: column;
+     padding-bottom: 20px;
+ }
+ #login-facebook{
+     display: inline-block;
+     justify-content: center;
+     align-items: center;
+     background-color: #3b5998;
+     color: white;
+     border-radius: 35px;
+     letter-spacing: 2px;
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 15px;
+     font-weight: 500;
+     margin: 0 0 10px;
+ }
+#login-facebook:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.facebook-icon{
+    padding-right: 10px;
+}
+ #login-apple{
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+     color: white;
+     border-radius: 35px;
+     letter-spacing: 2px;
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 15px;
+     font-weight: 500;
+     margin: 0 0 10px;
+ }
+ #login-apple:hover{
+     cursor: pointer;
+     transform: scale(1.04);
+ }
+ .apple-icon{
+     padding-right: 15px;
+     height: 18px;
+ }
+ #login-google{
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+     color: gray;
+     border-radius: 35px;
+     letter-spacing: 2px;
+     border: 1px solid black;
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 15px;
+     font-weight: 500;
+     margin: 0 0 10px;
+ }
+ #login-google:hover{
+     cursor: pointer;
+     transform: scale(1.04);
+ }
+ .google-icon{
+     padding-right: 10px;
+ }
+ .hrLine{
+     display: flex;
+     flex-direction: row;
+ }
+ .hrLine span{
+     flex: 0.3 1 0%;
+     align-self: center;
+     text-align: center;
+     line-height: 1px;
+     font-weight: 700;
+     font-size: 12px;
+ }
+ .hrLine hr{
+     flex: 1 1 0%;
+     margin: 12px 0px 20px;
+     border-top: 1px solid rgb(217, 218, 220);
+ }
+ .loginLower{
+     width: 460px;
+ }
+ .inputs-login{
+     display: flex;
+     flex-direction: column;
+ }
+.inputs-login label{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.loginInputs{
+    padding: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+.inputs-login p{
+    font-size: 15px;
+    margin-top: 0;
+}
+.lowerPart{
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: end;
+    align-items:  center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.buttonInput{
+    background-color: #1ed760;
+    border-radius: 35px;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    font-weight: 580;
+}
+.buttonInput:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+input[type=checkbox]{
+    accent-color:#1ed760;
+}
+.checkBox-input{
+    width: 120px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.lastPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.lastPart a{
+    color: #595959;
+    font-weight: 600;
+    text-decoration: none;
+}
+.lastPart a:hover{
+   color: #595959;
+}
+.signup-button-login{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: gray;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+.signup-button-login:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 992px){
+
+}
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 460px) {
+    .loginMiddle{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .loginLower{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .lastPart{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+@media only screen and (max-width: 300px){
+
+}

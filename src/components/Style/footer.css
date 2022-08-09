@@ -1,0 +1,98 @@
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 4rem 0;
+    font-family: Poppins;
+}
+footer *{
+    text-decoration: none;
+    color:#fff;
+}
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.footerContent{
+    padding-left: 30px;
+    display: flex;
+    column-gap: 3rem;
+}
+.footerContent a:hover{
+    color: #14ab52;
+}
+.footerContent h5{
+    opacity: .4;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .05rem;
+}
+.footerContent > div{
+    display: flex;
+    flex-direction: column;
+}
+.companyList{
+    display: flex;
+    flex-direction: column;
+}
+.companyList a{
+    margin: .5rem 0;
+    font-size: 14px;
+}
+.socials{
+    /*margin-left: 10rem;*/
+}
+.social-icons{
+    display: flex;
+}
+.social-icons a{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #222326;
+    border-radius: 50%;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+    .footerContainer{
+        display: flex;
+        /*flex-wrap: wrap;*/
+        padding: 0 0 0 15px;
+        margin: 0;
+    }
+    .footerContent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .socials{
+        margin: 0;
+        padding: 0;
+    }
+    .social-icons{
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width: 613px){
+
+    .footerContainer {
+        padding: 30px;
+        justify-content: flex-start;
+    }
+    .logo{
+        position: absolute;
+    }
+    .footerContent{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .companyClass{
+        margin-top: 15px;
+    }
+}
