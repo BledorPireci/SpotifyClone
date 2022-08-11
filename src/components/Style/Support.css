@@ -59,7 +59,7 @@
     position: relative;
     display: inline-block;
 }
-input[type=text]:focus {
+.input-wrapper input[type=text]:focus {
     width: 700px;
     border: none;
 }

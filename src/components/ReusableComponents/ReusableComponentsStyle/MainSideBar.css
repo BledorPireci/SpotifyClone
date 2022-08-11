@@ -1,0 +1,67 @@
+.SideBar{
+    width: 240px;
+    height: 100vh;
+    background-color: black;
+    padding: 23px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sideBarList{
+    color: #C1C1C1;
+    font-family: Poppins;
+    font-size: 15px;
+    border-bottom: 0.5px solid #414141;
+    margin-bottom: 10px;
+}
+.sideList a{
+    color: #C1C1C1;
+    text-decoration: none;
+}
+.sideBarList a:hover{
+    color: white;
+    transition: 0.2s;
+}
+.sideBarList a:active{
+    color: white;
+}
+.sideBarList li{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.sideBarList ul{
+    padding: 0;
+    list-style: none;
+}
+.home-icon{
+    height: 20px;
+    padding-right: 10px;
+}
+.search-Icon{
+    height: 20px;
+    padding-right: 16px;
+}
+.library-icon{
+    height: 20px;
+    padding-right: 14px;
+}
+.newPlaylist-icon{
+    height: 20px;
+    padding-right: 14px;
+}
+.liked-icon{
+    height: 20px;
+    padding-right: 20px;
+}
+.playlist-link{
+    color: #C1C1C1;
+    font-family: Poppins;
+    letter-spacing: -1px;
+    font-size: 15px;
+
+}
+.playlist-link:hover{
+    color: white;
+    transition: 0.2s;
+}
+

@@ -1,0 +1,139 @@
+.searchGrid{
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: white;
+    font-family: Poppins;
+    padding-left: 10px;
+}
+.SearchBar{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 100;
+}
+.back{
+    padding: 15px;
+    font-size: 25px;
+}
+.forward{
+    padding: 15px;
+    font-size: 25px;
+}
+.search-bar{
+    padding: 15px 15px 15px 30px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.search-bar input{
+    width: 300px;
+    padding: 12px;
+    padding-left: 38px;
+    border-radius: 35px;
+    border: 0.5px solid gray;
+}
+.search-bar:focus input{
+    width: 300px;
+    border: none;
+
+}
+.zoom{
+    color: black;
+    position: absolute;
+    left: 44px;
+    top: 29px;
+
+
+}
+.GridPhotos{
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    column-gap: 0;
+    margin-top: 25px;
+
+}
+.GridPhotos h3{
+    font-family: Poppins;
+    color: white;
+}
+.GridPhotos > div{
+    position: relative;
+    min-height: 190px;
+    max-width: 170px;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.GridPhotos img{
+    width: 90px;
+    position: absolute;
+    bottom: 10px;
+    right: -15px;
+    transform: rotate(30deg);
+    box-shadow: 0 0 5px rgba(0, 0,0,0.4);
+}
+.girdPodcast{
+    background-color: #27856a;
+}
+.gridMadeforyou{
+    background-color: #1e3264;
+}
+.gridLiveEvent{
+    background-color:#1e3264 ;
+}
+.gridHiphop{
+    background-color:#ba5d07 ;
+}
+.gridInCar{
+    background-color:#477d95 ;
+}
+.gridGaming{
+    background-color: #e8115b;
+}
+.gridLol{
+    background-color: #148a08;
+}
+.gridWorkout{
+    background-color: #b49bc8;
+}
+.gridParty{
+    background-color: #af2896;
+}
+.gridMetal{
+    background-color: #777777;
+}
+.gridJazz{
+    background-color: #1e3264;
+}
+.gridRnb{
+    background-color: #dc148c;
+}
+.gridInstrumental{
+    background-color: #477d95;
+}
+.gridRomance{
+    background-color: #8c1932;
+}
+.gridLatino{
+    background-color: #e1118b;
+}
+.gridCaribbean{
+    background-color: #0d73ec;
+}
+.gridFunk{
+    background-color: #e61e32;
+}
+.gridPunk{
+    background-color: #1e3264;
+}
+.gridTravel{
+    background-color: #2d46b9;
+}
+.gridAfro{
+    background-color: #af2896;
+}
