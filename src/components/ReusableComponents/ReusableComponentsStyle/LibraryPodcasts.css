@@ -1,0 +1,79 @@
+.podcastTopsite{
+
+    color: white;
+    font-family: Poppins;
+}
+.podcastTopsiteContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+}
+.podcastTopsiteContainer img{
+    width: 70px;
+
+}
+.podcastTopsiteContainer h1{
+    font-size: 30px;
+    line-height: 30px;
+}
+.podcastTopsiteContainer p{
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.podcastTopsiteContainer button{
+    font-size: 15px;
+    background-color: white;
+    padding: 15px 35px;
+    font-weight: 500;
+    border-radius: 45px;
+}
+.podcastTopsiteContainer button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: white;
+    font-weight: bold;
+}
+.podcastBotsite{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 5px;
+    grid-gap: 20px;
+    column-gap: 0;
+    margin-top: 25px;
+}
+.podcastCards{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.podcastCards img{
+    width: 170px;
+}
+.podcastCardInside {
+    margin-right: 30px;
+    background-color: #181818;
+}
+.podcastCardInside:last-child {
+    margin-right: 0px;
+}
+.podcastCardInside h2{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.podcastCardInside p{
+    padding-left: 5px;
+}
+.podcastCardInside:hover{
+    background-color: #2a2a2a;
+}
+.soloH2{
+    color: white;
+    padding-left: 35px;
+}

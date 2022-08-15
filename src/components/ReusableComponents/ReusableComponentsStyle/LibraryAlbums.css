@@ -1,0 +1,47 @@
+.rrethi{
+    color: white;
+    font-size: 80px;
+}
+.rrethi2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+}
+.albumContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+.textAlbum{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    font-family: Poppins;
+}
+.textAlbum h1{
+    font-size: 30px;
+}
+.textAlbum p{
+    padding: 0 0 3%;
+}
+.textAlbum button{
+    background-color: white;
+    padding: 17px 35px;
+    border-radius: 45px;
+
+}
+.textAlbum button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    font-weight: 600;
+}
+
+.active a {
+    background-color: #333333;
+    padding:13px;
+    border-radius: 5px;
+}

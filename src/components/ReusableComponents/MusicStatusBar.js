@@ -1,6 +1,7 @@
-import React from "react";
-import "./ReusableComponentsStyle/MusicStatusBar.css"
+import React, {useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import 'react-input-range/lib/css/index.css'
+import "./ReusableComponentsStyle/MusicStatusBar.css"
 import {
     faBackwardStep,
     faCirclePlay,
@@ -9,8 +10,18 @@ import {
     faRotateRight,
     faShuffle, faVolumeHigh} from "@fortawesome/free-solid-svg-icons";
 import {faNfcSymbol} from "@fortawesome/free-brands-svg-icons";
+import ReactDOM from 'react-dom';
+import InputRange from 'react-input-range';
+
+
 
 export default function MusicStatusBar(){
+    const [volume, setVolume] = useState(1)
+
+    const [rangeColor, setrangeColor] = useState( {
+        value: 100
+    })
+
     return(
         <>
             <div className="musicPlayer">
@@ -41,7 +52,14 @@ export default function MusicStatusBar(){
                         </div>
                         <div className="volumeBar">
                             <div className="volumeStatusBar">
-                            <button/>
+                                <InputRange
+                                    maxValue={20}
+                                    minValue={0}
+                                    value={rangeColor.value}
+                                    onChange={value => setrangeColor({ value })} />
+                                {/*<button onClick={() => setMuted(m => !m)}>*/}
+                                {/*    {muted ? "muted" : "unmuted"}*/}
+                                {/*</button>*/}
                             </div>
                         </div>
                     </div>

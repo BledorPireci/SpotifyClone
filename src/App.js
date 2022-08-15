@@ -16,6 +16,9 @@ import MainPage from "./components/Pages/MainPage";
 import MainSearch from "./components/ReusableComponents/MainSearch";
 import MainHome from "./components/ReusableComponents/MainHome";
 import MainLibrary from "./components/ReusableComponents/MainLibrary";
+import LibraryPodcasts from "./components/ReusableComponents/LibraryPodcasts";
+import LibraryAlbums from "./components/ReusableComponents/LibraryAlbums";
+import LibraryArtists from "./components/ReusableComponents/LibraryArtists";
 
 function App() {
     return (
@@ -37,7 +40,12 @@ function App() {
                         <Route path="/mainSearch" element={<MainSearch/>}/>
                         <Route path="/mainHome" element={<MainHome/>}/>
                         <Route path="/mainLibrary" element={<MainLibrary/>}/>
+                        <Route path="/LibraryPodcasts" element={<LibraryPodcasts/>}/>
+                        <Route path="/LibraryAlbums" element={<LibraryAlbums/>}/>
+                        <Route path="/LibraryArtists" element={<LibraryArtists/>}/>
+
                     </Route>
+
                 </Routes>
             </div>
         </BrowserRouter>

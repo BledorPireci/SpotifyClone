@@ -81,6 +81,7 @@
 }
 .innerVolume{
     color: white;
+    display: flex;
 }
 .microphone-icon{
     padding-right: 10px;
@@ -94,7 +95,10 @@
 .volumeUp-icon{
     padding-right: 5px;
 }
-.volumeBar{
+.volumeStatusBar {
+    margin-right: 40px;
+}
+.volumeStatusBar input{
     border-radius: 35px;
     height: 4px;
     background: #5e5e5e;
@@ -103,6 +107,7 @@
     transition: width .4s linear;
     margin-top: 7px;
     margin-left: 3px;
+    -webkit-appearance: none;
 }
 .volumeBar button{
     background-color: white;
@@ -114,6 +119,35 @@
     border: none;
     opacity: 0;
 }
-.volumeBar:hover button{
-    opacity: 1;
+.volumeBar {
+    width: 100%;
+}
+.input-range__label{
+    display: none;
+}
+
+.input-range__slider-container {
+    transition: none;
+}
+.input-range__track{
+    transition: none;
+}
+.input-range__slider-container {
+    transition: none;
+}
+.input-range__track--active {
+    background: #23d066;
+}
+.input-range__slider{
+    background: #23d066;
+    border: 1px solid #23d066;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: 1rem;
+    outline: none;
+    margin-left: 0;
+    position: absolute;
+    top: 50%;
+    width: 1rem;
 }

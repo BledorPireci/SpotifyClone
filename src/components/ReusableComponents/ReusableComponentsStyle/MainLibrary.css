@@ -10,6 +10,9 @@
     font-size: 13px;
     font-weight: 500;
 }
+.libraryNav a{
+    background-color: inherit;
+}
 .libraryLinks{
     padding-top: 12px;
 }

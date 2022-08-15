@@ -1,10 +1,12 @@
 import React from "react";
-import "./ReusableComponentsStyle/MainLibrary.css"
+import './ReusableComponentsStyle/LibraryAlbums.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAngleLeft, faAngleRight, faMusic, faPlayCircle} from "@fortawesome/free-solid-svg-icons";
-import {Link, useLocation, useNavigate} from "react-router-dom";
+import {faAngleLeft, faAngleRight} from "@fortawesome/free-solid-svg-icons";
+import {faCircle} from "@fortawesome/free-regular-svg-icons";
+import {Link, useNavigate} from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 
-export default function MainLibrary(){
+export default function LibraryAlbums() {
 
     const location = useLocation();
     const { pathname } = location;
@@ -12,11 +14,10 @@ export default function MainLibrary(){
     console.log('splitLocation:', splitLocation)
 
     const navigate = useNavigate();
-
-    return(
+    return (
         <>
-            <div className="library">
-                <div className="container-library">
+            <div className="Library-albums">
+                <div className="albumsContainer">
                     <div className="libraryNav">
                         <div className="back">
                             <a onClick={() => navigate(-1)}><FontAwesomeIcon icon={faAngleLeft} className="back-icon"/></a>
@@ -33,27 +34,14 @@ export default function MainLibrary(){
                             </ul>
                         </div>
                     </div>
-                    <h3>Playlists</h3>
-                    <div className="allLists">
-                        <div className="libraryContent">
-                            <div className="LikedSongs">
-                                <h1>Liked Songs</h1>
-                                <p>0 liked songs</p>
-                                <FontAwesomeIcon icon={faPlayCircle} className="hover-play"/>
-                            </div>
-                        </div>
-                        <div className="myPlaylist">
-                            <div className="myPlaylistBox">
-                                <div className="logoPart">
-                                    <FontAwesomeIcon icon={faMusic} className="musicIcon"/>
-                                </div>
-                                <div className="textPart">
-                                    <h2>My Playlist 1</h2>
-                                    <p>By BledorPireci</p>
-                                    <FontAwesomeIcon icon={faPlayCircle} className="hover-play-2"/>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="albumContent">
+                        <FontAwesomeIcon icon={faCircle} className="rrethi"/>
+                        <FontAwesomeIcon icon={faCircle} className="rrethi2"/>
+                    </div>
+                    <div className="textAlbum">
+                        <h1>Follow your first album</h1>
+                        <p>Save Albums by tapping the heart icon.</p>
+                        <button>Find Albums</button>
                     </div>
                 </div>
             </div>

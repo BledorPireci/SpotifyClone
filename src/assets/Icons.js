@@ -38,9 +38,29 @@ import funk from './funk-photo.jpg'
 import punk from './punk-photo.jpg'
 import travel from './travel-photo.png'
 import afro from './afro-photo.jpg'
-
-
-
+import chillMix from './Albums/chillMix.jpg'
+import ninetiesMix from './Albums/90sMix.jpg'
+import happyMix from './Albums/happyMIx.jpg'
+import lyricalSonMix from './Albums/lyricaSonMix.jpg'
+import moodyMix from './Albums/moodyMix.jpg'
+import rockMix from './Albums/rockMix.jpg'
+import muzikEAlltis from './Albums/PopulaAlbumsMuzikEAlltis.jpg'
+import usa from './Albums/PopularAlbums-USA.jpg'
+import afterHours from './Albums/PopularAlbums-AfterHours.jpg'
+import planetHer from './Albums/PopularAlbums-PlanetHer.jpg'
+import imPaulsive from './podcasts/podacstImpaulsive.jpg'
+import onPurpose from './podcasts/podacstOnPurpose.jpg'
+import murders from './podcasts/podcastMurderes.jpg'
+import joeRogan from './podcasts/podcastsJoeRogan.jpg'
+import streamSvg from './stream.svg'
+import bonJovi from './Artists/BonJoviiLogo.jpg'
+import ffDP from './Artists/FivefungerDeathPunchLogo.jpg'
+import gNr from './Artists/GunsNrosesLogo.png'
+import lPark from './Artists/LinkinParkLogo.jpg'
+import lyricalSon from './Artists/LyricalSonLogo.jpg'
+import pinkfloyd from './Artists/PinkFloydLogo.png'
+import popSmoke from './Artists/PopSmokeLogo.jpg'
+import mcKresha from './Artists/McKreshaLogo.jpg'
 
 export const UserIcon = () => <img src={user} className="logo"/>
 export const FacebookIcon = () => <img src={facebook} className="logo2"/>
@@ -81,3 +101,26 @@ export const  Funk=() => <img src={funk} className={"funk-icon"}/>
 export const  Punk=() => <img src={punk} className={"punk-icon"}/>
 export const  Travel=() => <img src={travel} className={"travel-icon"}/>
 export const  Afro=() => <img src={afro} className={"afro-icon"}/>
+export const  NinetiesMix=() => <img src={ninetiesMix} className={"ninetiesMix-icon"}/>
+export const  ChillMix=() => <img src={chillMix} className={"chillMix-icon"}/>
+export const  HappyMix=() => <img src={happyMix} className={"happyMix-icon"}/>
+export const  LyricalSonMix=() => <img src={lyricalSonMix} className={"lyricalSonMix-icon"}/>
+export const  MoodyMix=() => <img src={moodyMix} className={"moodyMix-icon"}/>
+export const  RockMix=() => <img src={rockMix} className={"rockMix-icon"}/>
+export const  MuzikEAlltis=() => <img src={muzikEAlltis} className={"muzikEAlltis-icon"}/>
+export const  Usa=() => <img src={usa} className={"usa-icon"}/>
+export const  AfterHours=() => <img src={afterHours} className={"afterHours-icon"}/>
+export const  PlanetHer=() => <img src={planetHer} className={"planetHer-icon"}/>
+export const  ImPaulsive=() => <img src={imPaulsive} className={"imPaulsive-icon"}/>
+export const  OnPurpose=() => <img src={onPurpose} className={"onPurpose-icon"}/>
+export const  Murders=() => <img src={murders} className={"murders-icon"}/>
+export const  JoeRogan=() => <img src={joeRogan} className={"joeRogan-icon"}/>
+export const  StreamSvg=() => <img src={streamSvg} className={"streamSvg-icon"}/>
+export const  BonJovi=() => <img src={bonJovi} className={"bonJovi-logo"}/>
+export const  FiveFingerDeathPunch=() => <img src={ffDP} className={"fiveFingerDeathPunch-logo"}/>
+export const  GunsNroses=() => <img src={gNr} className={"GunsNroses-logo"}/>
+export const  LinkinPark=() => <img src={lPark} className={"LinkinPark-logo"}/>
+export const  LyricalSon=() => <img src={lyricalSon} className={"lyricalSon-logo"}/>
+export const  Pinkfloyd=() => <img src={pinkfloyd} className={"pinkfloyd-logo"}/>
+export const  PopSmoke=() => <img src={popSmoke} className={"popSmoke-logo"}/>
+export const  McKresha=() => <img src={mcKresha} className={"mcKresha-logo"}/>
