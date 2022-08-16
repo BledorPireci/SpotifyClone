@@ -17,18 +17,20 @@ import {
 } from "../../assets/Icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleLeft, faAngleRight, faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
+import {useNavigate} from "react-router-dom";
 
 export default function MainSearch(){
+    const navigate = useNavigate();
     return(
         <>
             <div className="searchGrid">
                 <div className="searchGridContainer">
                     <div className="SearchBar">
                         <div className="back">
-                            <FontAwesomeIcon icon={faAngleLeft} className="back-icon"/>
+                            <a onClick={() => navigate(-1)}><FontAwesomeIcon icon={faAngleLeft} className="back-icon"/></a>
                         </div>
                         <div className="forward">
-                            <FontAwesomeIcon icon={faAngleRight} className="forward-icon"/>
+                            <a onClick={() => navigate(1)}><FontAwesomeIcon icon={faAngleRight} className="forward-icon"/></a>
                         </div>
                         <div className="search-bar">
                             <FontAwesomeIcon icon={faMagnifyingGlass} className="zoom"/>

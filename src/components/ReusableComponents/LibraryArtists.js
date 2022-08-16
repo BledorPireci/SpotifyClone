@@ -19,7 +19,6 @@ export default function LibraryArtists() {
     const { pathname } = location;
     const splitLocation = pathname.split("/");
     console.log('splitLocation:', splitLocation)
-
     const navigate = useNavigate();
 
     return (

@@ -19,7 +19,7 @@ export default function MusicStatusBar(){
     const [volume, setVolume] = useState(1)
 
     const [rangeColor, setrangeColor] = useState( {
-        value: 100
+        value: 50
     })
 
     return(
@@ -53,9 +53,9 @@ export default function MusicStatusBar(){
                         <div className="volumeBar">
                             <div className="volumeStatusBar">
                                 <InputRange
-                                    maxValue={20}
                                     minValue={0}
                                     value={rangeColor.value}
+                                    maxValue={100}
                                     onChange={value => setrangeColor({ value })} />
                                 {/*<button onClick={() => setMuted(m => !m)}>*/}
                                 {/*    {muted ? "muted" : "unmuted"}*/}

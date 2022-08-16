@@ -4,6 +4,7 @@ import {UserIcon} from "../../assets/Icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBook, faCirclePlus, faHouse, faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
 import {faGratipay} from "@fortawesome/free-brands-svg-icons";
+import {Link, useNavigate} from 'react-router-dom';
 
 export default function MainSideBar(){
     return(
@@ -16,9 +17,9 @@ export default function MainSideBar(){
                 <div className="sideBarContainer">
                     <div className="sideBarList">
                         <ul className="sideList">
-                            <li><a href="/mainHome"><FontAwesomeIcon icon={faHouse} className="home-icon"/> Home</a></li>
-                            <li><a href="/mainSearch"><FontAwesomeIcon icon={faMagnifyingGlass} className="search-Icon"/>Search</a></li>
-                            <li><a href="/mainLibrary"><FontAwesomeIcon icon={faBook} className="library-icon"/> Your Library</a></li>
+                            <li><Link to="/mainHome"><FontAwesomeIcon icon={faHouse} className="home-icon"/> Home</Link></li>
+                            <li><Link to="/mainSearch"><FontAwesomeIcon icon={faMagnifyingGlass} className="search-Icon"/>Search</Link></li>
+                            <li><Link to="/mainLibrary"><FontAwesomeIcon icon={faBook} className="library-icon"/> Your Library</Link></li>
                         </ul>
                         <ul className="playlist">
                             <li><a><FontAwesomeIcon icon={faCirclePlus} className="newPlaylist-icon"/> Create Playlist</a></li>

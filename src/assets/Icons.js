@@ -61,6 +61,21 @@ import lyricalSon from './Artists/LyricalSonLogo.jpg'
 import pinkfloyd from './Artists/PinkFloydLogo.png'
 import popSmoke from './Artists/PopSmokeLogo.jpg'
 import mcKresha from './Artists/McKreshaLogo.jpg'
+import allOut80s from './Albums/AllOut80s.jpg'
+import rockClassics from  './Albums/RockClassics.jpg'
+import allOut2010s from './Albums/AllOut2010s.jpg'
+import oOsRock from './Albums/00sRockAnthems.jpg'
+import beastMode from './Albums/beastMode.jpg'
+import happyCountry from './Albums/happyCountry.jpg'
+import happyPerfectDay from './Albums/happyPerfectDay.jpg'
+import happySwagger from './Albums/happySwagger.jpg'
+import happyVanLife from './Albums/happyVanLife.jpg'
+import heavyMetal from './Albums/HeavyMetal.jpg'
+import motivationMix from './Albums/motivationMix.jpg'
+import rockUrBody from './Albums/rockUrBody.jpg'
+import runningToRock from './Albums/runningToRock.jpg'
+import ultraGaming from './Albums/ultraGaming.jpg'
+import adrenalineWorkout from './Albums/adrenalineWorkout.jpg'
 
 export const UserIcon = () => <img src={user} className="logo"/>
 export const FacebookIcon = () => <img src={facebook} className="logo2"/>
@@ -124,3 +139,19 @@ export const  LyricalSon=() => <img src={lyricalSon} className={"lyricalSon-logo
 export const  Pinkfloyd=() => <img src={pinkfloyd} className={"pinkfloyd-logo"}/>
 export const  PopSmoke=() => <img src={popSmoke} className={"popSmoke-logo"}/>
 export const  McKresha=() => <img src={mcKresha} className={"mcKresha-logo"}/>
+export const  AllOut80s=() => <img src={allOut80s} className={"allOut80s-logo"}/>
+export const  RockClassics=() => <img src={rockClassics} className={"rockClassics-logo"}/>
+export const  AllOut2010s=() => <img src={allOut2010s} className={"allOut2010s-logo"}/>
+export const  OOsRock=() => <img src={oOsRock} className={"OOsRock-logo"}/>
+export const  BeastMode=() => <img src={beastMode} className={"beastMode-logo"}/>
+export const  HappyCountry=() => <img src={happyCountry} className={"happyCountry-logo"}/>
+export const  HappyPerfectDay=() => <img src={happyPerfectDay} className={"happyPerfectDay-logo"}/>
+export const  HappySwagger=() => <img src={happySwagger} className={"happySwagger-logo"}/>
+export const  HappyVanLife=() => <img src={happyVanLife} className={"happyVanLife-logo"}/>
+export const  HeavyMetal=() => <img src={heavyMetal} className={"heavyMetal-logo"}/>
+export const  MotivationMix=() => <img src={motivationMix} className={"motivationMix-logo"}/>
+export const  RockUrBody=() => <img src={rockUrBody} className={"rockUrBody-logo"}/>
+export const  RunningToRock=() => <img src={runningToRock} className={"runningToRock-logo"}/>
+export const  UltraGaming=() => <img src={ultraGaming} className={"ultraGaming-logo"}/>
+export const  AdrenalineWorkout=() => <img src={adrenalineWorkout} className={"adrenalineWorkout-logo"}/>
+
