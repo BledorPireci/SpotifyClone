@@ -1,30 +1,23 @@
 import React from "react";
 import './ReusableComponentsStyle/LibraryAlbums.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAngleLeft, faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import {faCircle} from "@fortawesome/free-regular-svg-icons";
-import {Link, useNavigate} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import { useLocation } from "react-router-dom";
+import MainNavigation from "./MainNavigation";
 
 export default function LibraryAlbums() {
 
     const location = useLocation();
     const { pathname } = location;
     const splitLocation = pathname.split("/");
-    console.log('splitLocation:', splitLocation)
 
-    const navigate = useNavigate();
     return (
         <>
             <div className="Library-albums">
                 <div className="albumsContainer">
                     <div className="libraryNav">
-                        <div className="back">
-                            <a onClick={() => navigate(-1)}><FontAwesomeIcon icon={faAngleLeft} className="back-icon"/></a>
-                        </div>
-                        <div className="forward">
-                            <a onClick={() => navigate(1)}><FontAwesomeIcon icon={faAngleRight} className="forward-icon"/></a>
-                        </div>
+                        <MainNavigation/>
                         <div className="libraryLinks">
                             <ul>
                                 <li className={splitLocation[1] === "mainLibrary" ? "active" : ""}><Link to="/mainLibrary">Playlists</Link></li>

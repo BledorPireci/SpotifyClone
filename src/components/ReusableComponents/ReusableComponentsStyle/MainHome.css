@@ -1,29 +1,68 @@
-.madeForYou{
+.madeForYou {
     color: white;
     font-family: Poppins;
 }
+.madeForYou-grid{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    overflow-x: auto;
+}
 .madeForYou-grid img{
-    width: 150px;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
     border-radius: 10px;
 }
 .madeforU-Card{
     background-color: #181818;
-    width: 170px;
-    padding-top: 5px;
-    padding-left: 10px;
-}
-.madeForYou-grid{
     display: flex;
-    gap: 20px;
-    padding-bottom: 20px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 16px;
+    flex: 1 0 calc(16.666667% - 30px);
+    max-width: calc(16.666667% - 30px);
+    transition: background-color .3s ease;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
 }
-.madeforU-Card h2{
-    font-size: 20px;
+.madeforU-Card h2 {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
 }
-.madeforU-Card p{
+.madeforU-Card p {
     font-size: 13px;
     color: gray;
+    margin-bottom: 0;
+}
+.play-button-link{
+    height: 40px;
+    position: absolute;
+    color: #23d066;
+    top: 45%;
+    right: 10%;
+    opacity: 0;
+    background-color: #100f0f;
+    border-radius: 100%;
+    border-color: #23d066;
+
+}
+.madeforU-Card:hover .play-button-link {
+    opacity: 1;
+    transition-delay: 0.1s;
+    transition: all .4s ease-in-out;
 }
 .madeforU-Card:hover{
-    background-color: #282828
+    background-color: #282828;
+    opacity: 1;
+}
+.play-button-link:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #23e370;
+
 }

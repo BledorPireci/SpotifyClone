@@ -11,7 +11,9 @@ export default function MainSideBar(){
         <>
             <div className="SideBar">
                 <div className="sideLogo">
-                    <UserIcon/>
+                    <a href="/">
+                        <UserIcon/>
+                    </a>
                 </div>
 
                 <div className="sideBarContainer">

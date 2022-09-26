@@ -61,19 +61,31 @@
     background-color: white;
     border-radius: 10px;
 }
+.btn-loginWithSpotify{
+    margin-left: 10px;
+    padding: 5px 20px;
+    border-radius: 35px;
+    font-family: Poppins;
+    background-color: #19e68c;
+    border: none;
+    cursor: pointer;
+    color: #148a08;
+    font-weight: 600;
+}
+.link-to-spotify{
+}
+.btn-loginWithSpotify:hover{
+    transform: scale(1.03);
 
+}
 @media only screen and (max-width: 360px){
 
 }
 @media only screen and (max-width: 460px){
-    .navbar-links ul{
-        display: none;
-    }
+
 }
 @media only screen and (max-width: 992px){
-    /*.logo{*/
-    /*    margin: 0.5rem 0.5rem 0.5rem 10px;*/
-    /*}*/
+
     .toggleButton {
         position: absolute;
         display: flex;

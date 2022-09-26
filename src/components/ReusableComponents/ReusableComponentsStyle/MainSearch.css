@@ -30,23 +30,55 @@
 }
 .search-bar input{
     width: 300px;
-    padding: 12px;
-    padding-left: 38px;
+    padding: 12px 12px 12px 38px;
     border-radius: 35px;
     border: 0.5px solid gray;
 }
 .search-bar:focus input{
     width: 300px;
     border: none;
-
 }
 .zoom{
     color: black;
     position: absolute;
     left: 44px;
     top: 29px;
-
-
+}
+.search--albums{
+    max-width: 160px;
+    margin-top: 20px;
+    /*display: flex;*/
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.search--albums--card{
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 7px;
+}
+.search--albums--card:hover{
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+.search--albums--card img{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-album-text{
+    margin-top: 10px;
+    color: white;
+    font-family: Poppins;
+}
+.search-album-text h3{
+    font-size: 15px;
+}
+.search-album-text p{
+    font-size: 14px;
+    line-height: 5px;
+    color: gray;
 }
 .GridPhotos{
     padding-left: 5px;

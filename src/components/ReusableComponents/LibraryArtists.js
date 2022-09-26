@@ -12,26 +12,21 @@ import {
     McKresha, PopSmoke
 } from "../../assets/Icons";
 import "./ReusableComponentsStyle/LibraryArtists.css"
+import MainNavigation from "./MainNavigation";
 
 export default function LibraryArtists() {
 
     const location = useLocation();
     const { pathname } = location;
     const splitLocation = pathname.split("/");
-    console.log('splitLocation:', splitLocation)
-    const navigate = useNavigate();
+
 
     return (
         <>
             <div className="Library-artists">
                 <div className="artistsContainer">
                     <div className="libraryNav">
-                        <div className="back">
-                            <a onClick={() => navigate(-1)}><FontAwesomeIcon icon={faAngleLeft} className="back-icon"/></a>
-                        </div>
-                        <div className="forward">
-                            <a onClick={() => navigate(1)}><FontAwesomeIcon icon={faAngleRight} className="forward-icon"/></a>
-                        </div>
+                        <MainNavigation/>
                         <div className="libraryLinks">
                             <ul>
                                 <li className={splitLocation[1] === "mainLibrary" ? "active" : ""}><Link to="/mainLibrary">Playlists</Link></li>

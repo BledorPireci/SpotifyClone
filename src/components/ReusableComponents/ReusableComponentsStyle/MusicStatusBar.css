@@ -7,19 +7,23 @@
     left: 0;
     right: 0;
 }
+.musicPlayer  .innerPlayButtons {
+    transition: opacity ease-in-out 0.4s ;
+}
+.musicPlayer.disabled .innerPlayButtons {
+    opacity: 0.1;
+    pointer-events: none;
+}
 .musicPlayerContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .playButtons{
     flex:0 0 auto;
-
 }
 .testdiv,.volumeControls{
     flex:0 0 200px;
-
 }
 .innerPlayButtons{
     color: #C1C1C1;

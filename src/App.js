@@ -32,6 +32,7 @@ function App() {
                     <Route path="/supportPage" element={<SupportPage/>}/>
                     <Route path="/registerPage" element={<RegisterPage/>}/>
                     <Route path="/loginPage" element={<LoginPage/>}/>
+                    <Route path="/navigationBar" element={<NavigationBar/>}/>
                     <Route path="/navigationDrawer" element={<NavigationDrawer/>}/>
                     <Route path="/mainSideBar" element={<MainSideBar/>}/>
                     <Route path="/musicStatusBar" element={<MusicStatusBar/>}/>

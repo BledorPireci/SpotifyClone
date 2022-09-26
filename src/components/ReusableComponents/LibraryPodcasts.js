@@ -4,6 +4,7 @@ import {faAngleLeft, faAngleRight} from "@fortawesome/free-solid-svg-icons";
 import './ReusableComponentsStyle/LibraryPodcasts.css'
 import {ImPaulsive, JoeRogan, Murders, OnPurpose, StreamSvg} from "../../assets/Icons";
 import {Link, useLocation, useNavigate} from "react-router-dom";
+import MainNavigation from "./MainNavigation";
 
 
 export default function LibraryPodcasts(){
@@ -11,20 +12,14 @@ export default function LibraryPodcasts(){
     const location = useLocation();
     const { pathname } = location;
     const splitLocation = pathname.split("/");
-    console.log('splitLocation:', splitLocation)
 
-    const navigate = useNavigate();
+
     return(
         <>
             <div className="Library-podcasts">
                 <div className="podcastsContainer">
                     <div className="libraryNav">
-                        <div className="back">
-                            <a onClick={() => navigate(-1)}><FontAwesomeIcon icon={faAngleLeft} className="back-icon"/></a>
-                        </div>
-                        <div className="forward">
-                            <a onClick={() => navigate(1)}><FontAwesomeIcon icon={faAngleRight} className="forward-icon"/></a>
-                        </div>
+                        <MainNavigation/>
                         <div className="libraryLinks">
                             <ul>
                                 <li className={splitLocation[1] === "mainLibrary" ? "active" : ""}><Link to="/mainLibrary">Playlists</Link></li>
