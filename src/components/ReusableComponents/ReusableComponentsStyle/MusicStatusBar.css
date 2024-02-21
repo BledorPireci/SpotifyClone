@@ -59,18 +59,19 @@
 .songStatus button{
     background-color: white;
     position: absolute;
-    margin-top: -5px;
     width: 15px;
     height: 15px;
     border-radius: 100px;
     border: none;
     opacity: 0;
+    top: -5.5px;
+    right: -5.5px;
 }
 .songStatus:hover button{
     opacity: 1;
 }
 #songStatusBar{
-    height: 8px;
+    height: 5px;
     background: white;
     width: 0;
     position: relative;
@@ -79,9 +80,30 @@
 #songStatusBar:hover{
     background-color: #23d066;
 }
+.testdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.testdiv p{
+    color: white;
+    padding-left: 15px;
+    font-family: Poppins;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 60%;
+}
+.testdiv img {
+    width: 70px;
+    margin-top: 10px;
+}
 .volumeControls{
-    display: inline-flex;
-
+    display: flex;
+    align-items: center;
 }
 .innerVolume{
     color: white;
@@ -100,7 +122,7 @@
     padding-right: 5px;
 }
 .volumeStatusBar {
-    margin-right: 40px;
+    margin-right: 10px;
 }
 .volumeStatusBar input{
     border-radius: 35px;
@@ -109,14 +131,12 @@
     width:80px;
     position: relative;
     transition: width .4s linear;
-    margin-top: 7px;
     margin-left: 3px;
     -webkit-appearance: none;
 }
 .volumeBar button{
     background-color: white;
     position: absolute;
-    margin-top: -3px;
     width: 10px;
     height: 10px;
     border-radius: 100px;
