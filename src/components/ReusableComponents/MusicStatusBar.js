@@ -1,6 +1,5 @@
 import React, {useState, useRef, useEffect, useContext} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import 'react-input-range/lib/css/index.css'
 import "./ReusableComponentsStyle/MusicStatusBar.css"
 import {
     faBackwardStep, faCirclePause,
@@ -11,7 +10,7 @@ import {
     faShuffle, faVolumeHigh, faVolumeMute
 } from "@fortawesome/free-solid-svg-icons";
 import {faNfcSymbol} from "@fortawesome/free-brands-svg-icons";
-import InputRange from 'react-input-range';
+// import InputRange from 'react-input-range';
 import {TrackContext} from "../Context/TrackContext";
 
 
@@ -160,16 +159,16 @@ export default function MusicStatusBar(){
                                 }
                             </a>
                         </div>
-                        <div className="volumeBar">
-                            <div className="volumeStatusBar">
-                                <InputRange
-                                    minValue={0}
-                                    value={rangeColor}
-                                    maxValue={100}
-                                    onChange={value => setRangeColor(value)}
-                                />
-                            </div>
-                        </div>
+                        {/*<div className="volumeBar">*/}
+                        {/*    <div className="volumeStatusBar">*/}
+                        {/*        <InputRange*/}
+                        {/*            minValue={0}*/}
+                        {/*            value={rangeColor}*/}
+                        {/*            maxValue={100}*/}
+                        {/*            onChange={value => setRangeColor(value)}*/}
+                        {/*        />*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
