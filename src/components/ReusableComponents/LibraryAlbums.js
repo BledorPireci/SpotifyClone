@@ -32,7 +32,7 @@ export default function LibraryAlbums() {
                         <FontAwesomeIcon icon={faCircle} className="rrethi2"/>
                     </div>
                     <div className="textAlbum">
-                        <h1>Follow your first album</h1>
+                        <h1>Follow your first albumm</h1>
                         <p>Save Albums by tapping the heart icon.</p>
                         <button>Find Albums</button>
                     </div>
