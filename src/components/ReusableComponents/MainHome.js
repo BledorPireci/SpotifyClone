@@ -14,8 +14,11 @@ export default function MainHome(){
     }, [])
 
     useEffect(() => {
-
         if (!token) return;
+
+        const redirectUri = process.env.NODE_ENV === 'development'
+            ? 'http://localhost:3000/mainHome'
+            : 'https://spotify-clone-dusky-omega.vercel.app/mainHome';
 
         fetch('https://api.spotify.com/v1/browse/featured-playlists?limit=5&offset=1', {
             headers: {
@@ -23,18 +26,19 @@ export default function MainHome(){
             }
         })
             .then((response) => {
-                return response.json()
+                return response.json();
             })
             .then((data) => {
                 if (data?.error?.status === 401 || data?.error?.status === 500) {
                     window.localStorage.removeItem("token");
-                    window.location.href = "https://accounts.spotify.com/en/authorize?client_id=a29dd3741c0e45d29cab62083a762050&redirect_uri=http://localhost:3000/mainHome&response_type=token";
+                    window.location.href = `https://accounts.spotify.com/en/authorize?client_id=a29dd3741c0e45d29cab62083a762050&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=token`;
                     return;
                 }
-                setPlaylist(data?.playlists?.items)
-            })
+                setPlaylist(data?.playlists?.items);
+            });
 
-    }, [token])
+    }, [token]);
+
 
     // useEffect(() => {
     //     console.log(playlist)
