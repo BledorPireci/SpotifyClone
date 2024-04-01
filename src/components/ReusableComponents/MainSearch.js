@@ -113,7 +113,7 @@ export default function MainSearch(){
                                         <Podcast/>
                                     </div>
                                     <div className="gridMadeforyou">
-                                        <h3>Made for you</h3>
+                                        <h3>Made for you!</h3>
                                         <MadeForYou/>
                                     </div>
                                     <div className="gridLiveEvent">
